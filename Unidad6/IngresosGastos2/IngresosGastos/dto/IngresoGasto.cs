@@ -7,83 +7,30 @@ using System.Threading.Tasks;
 
 namespace IngresosGastos.dto
 {
-    public class IngresoGasto : INotifyPropertyChanged
+    public class IngresoGasto
     {
-        private DateTime fecha;
-        private String concepto;
-        private double ingreso;
-        private double gasto;
-        public event PropertyChangedEventHandler PropertyChanged;
 
-        public IngresoGasto()
+        public IngresoGasto(DateTime fecha, String concepto, double importe)
         {
-            this.fecha = DateTime.Now;
-        }
-
-        public IngresoGasto(DateTime Fecha, String Concepto, double Importe)
-        {
-            this.fecha = Fecha;
-            this.concepto = Concepto;
-            if (Importe < 0)
+            Fecha = fecha;
+            Concepto = concepto;
+            if (importe < 0)
             {
-                this.gasto = Importe;
+                Gasto = importe;
             }
             else
             {
-                this.ingreso = Importe;
+                Ingreso = importe;
             }
         }
 
-        public DateTime Fecha
-        {
-            get
-            {
-                return fecha;
-            }
-            set
-            {
-                this.fecha = value;
-                this.PropertyChanged(this, new PropertyChangedEventArgs("Fecha"));
-            }
-        }
+        public DateTime Fecha { get; set; }
 
-        public string Concepto
-        {
-            get
-            {
-                return concepto;
-            }
-            set
-            {
-                this.concepto = value;
-                this.PropertyChanged(this, new PropertyChangedEventArgs("Concepto"));
-            }
-        }
+        public string Concepto { get; set; }
 
-        public double Ingreso
-        {
-            get
-            {
-                return ingreso;
-            }
-            set
-            {
-                this.ingreso = value;
-                this.PropertyChanged(this, new PropertyChangedEventArgs("Ingreso"));
-            }
-        }
+        public double Ingreso { get; set; }
 
-        public double Gasto
-        {
-            get
-            {
-                return gasto;
-            }
-            set
-            {
-                this.gasto = value;
-                this.PropertyChanged(this, new PropertyChangedEventArgs("Gasto"));
-            }
-        }
+        public double Gasto { get; set; }
+
     }
 }

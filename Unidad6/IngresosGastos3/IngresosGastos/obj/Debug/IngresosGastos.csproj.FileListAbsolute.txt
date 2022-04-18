@@ -57,3 +57,33 @@ C:\Users\nm t\Documents\GitHub\DAM2_DI_19_20\Unidad6\IngresosGastos3\IngresosGas
 C:\Users\nm t\Documents\GitHub\DAM2_DI_19_20\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\IngresosGastos.g.resources
 C:\Users\nm t\Documents\GitHub\DAM2_DI_19_20\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\IngresosGastos.Properties.Resources.resources
 C:\Users\nm t\Documents\GitHub\DAM2_DI_19_20\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\IngresosGastos.csproj.GenerateResource.Cache
+C:\Users\eduardo\Documents\NetBeansProjects\DAM2_DI_21_22\Unidad6\IngresosGastos3\IngresosGastos\bin\Debug\IngresosGastos.exe.config
+C:\Users\eduardo\Documents\NetBeansProjects\DAM2_DI_21_22\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\IngresosGastos.exe
+C:\Users\eduardo\Documents\NetBeansProjects\DAM2_DI_21_22\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\IngresosGastos.pdb
+C:\Users\eduardo\Documents\NetBeansProjects\DAM2_DI_21_22\Unidad6\IngresosGastos3\IngresosGastos\bin\Debug\IngresosGastos.exe
+C:\Users\eduardo\Documents\NetBeansProjects\DAM2_DI_21_22\Unidad6\IngresosGastos3\IngresosGastos\bin\Debug\IngresosGastos.pdb
+C:\Users\eduardo\Documents\NetBeansProjects\DAM2_DI_21_22\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\IngresosGastos.csprojResolveAssemblyReference.cache
+C:\Users\eduardo\Documents\NetBeansProjects\DAM2_DI_21_22\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\gui\MainWindow.baml
+C:\Users\eduardo\Documents\NetBeansProjects\DAM2_DI_21_22\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\gui\VentanaDialogo.baml
+C:\Users\eduardo\Documents\NetBeansProjects\DAM2_DI_21_22\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\gui\MainWindow.g.cs
+C:\Users\eduardo\Documents\NetBeansProjects\DAM2_DI_21_22\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\gui\VentanaDialogo.g.cs
+C:\Users\eduardo\Documents\NetBeansProjects\DAM2_DI_21_22\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\App.g.cs
+C:\Users\eduardo\Documents\NetBeansProjects\DAM2_DI_21_22\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\IngresosGastos_MarkupCompile.cache
+C:\Users\eduardo\Documents\NetBeansProjects\DAM2_DI_21_22\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\IngresosGastos.g.resources
+C:\Users\eduardo\Documents\NetBeansProjects\DAM2_DI_21_22\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\IngresosGastos.Properties.Resources.resources
+C:\Users\eduardo\Documents\NetBeansProjects\DAM2_DI_21_22\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\IngresosGastos.csproj.GenerateResource.Cache
+H:\Curso 2021 2022\Desarrollo de Interfaces\Unidad6\IngresosGastos3\IngresosGastos\bin\Debug\IngresosGastos.exe.config
+H:\Curso 2021 2022\Desarrollo de Interfaces\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\IngresosGastos.exe
+H:\Curso 2021 2022\Desarrollo de Interfaces\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\IngresosGastos.pdb
+H:\Curso 2021 2022\Desarrollo de Interfaces\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\IngresosGastos.csprojResolveAssemblyReference.cache
+H:\Curso 2021 2022\Desarrollo de Interfaces\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\gui\VentanaPrincipal.baml
+H:\Curso 2021 2022\Desarrollo de Interfaces\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\gui\VentanaDialogo.baml
+H:\Curso 2021 2022\Desarrollo de Interfaces\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\gui\VentanaPrincipal.g.cs
+H:\Curso 2021 2022\Desarrollo de Interfaces\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\gui\VentanaDialogo.g.cs
+H:\Curso 2021 2022\Desarrollo de Interfaces\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\App.g.cs
+H:\Curso 2021 2022\Desarrollo de Interfaces\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\IngresosGastos_MarkupCompile.cache
+H:\Curso 2021 2022\Desarrollo de Interfaces\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\IngresosGastos.g.resources
+H:\Curso 2021 2022\Desarrollo de Interfaces\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\IngresosGastos.Properties.Resources.resources
+H:\Curso 2021 2022\Desarrollo de Interfaces\Unidad6\IngresosGastos3\IngresosGastos\obj\Debug\IngresosGastos.csproj.GenerateResource.Cache
+H:\Curso 2021 2022\Desarrollo de Interfaces\Unidad6\IngresosGastos3\IngresosGastos\bin\Debug\IngresosGastos.exe
+H:\Curso 2021 2022\Desarrollo de Interfaces\Unidad6\IngresosGastos3\IngresosGastos\bin\Debug\IngresosGastos.pdb

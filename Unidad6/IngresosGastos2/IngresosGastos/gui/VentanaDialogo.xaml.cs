@@ -49,18 +49,42 @@ namespace IngresosGastos.gui
         }
         private void BInsertar_Click(object sender, RoutedEventArgs e)
         {
-            //en caso de que el botón sea de modificación o de Inserción
-            if ((String)(BInsertar.Content) == "Insertar")
+            //Validamos los campos
+            String mensaje = "Los siguientes campos son obligatorios:";
+            if (DPFecha.SelectedDate == null)
             {
-                logicaNegocio.aniadirIngresoGasto(new IngresoGasto(DPFecha.SelectedDate.Value, TBConcepto.Text, Convert.ToDouble(TBImporte.Text)));
+                mensaje = mensaje + " Fecha";
             }
-            else
+            if (TBConcepto.Text == String.Empty)
             {
-                logicaNegocio.modificarIngresoGasto(new IngresoGasto(DPFecha.SelectedDate.Value, TBConcepto.Text, Convert.ToDouble(TBImporte.Text)), posicion);
+                if (mensaje != "Los siguientes campos son obligatorios:")
+                    mensaje = mensaje + ", Concepto";
+                else
+                    mensaje = mensaje + " Concepto";
             }
-            this.Close();
+            if (TBImporte.Text == String.Empty)
+            {
+                if (mensaje != "Los siguientes campos son obligatorios:")
+                    mensaje = mensaje + ", Importe";
+                else
+                    mensaje = mensaje + " Importe";
+            }
+            //comprobamos validación
+            if (mensaje == "Los siguientes campos son obligatorios:") //se validaron los campos correctamente
+            {
+                //en caso de que el botón sea de modificación o de Inserción
+                if ((String)(BInsertar.Content) == "Insertar")
+                {
+                    logicaNegocio.aniadirIngresoGasto(new IngresoGasto(DPFecha.SelectedDate.Value, TBConcepto.Text, Convert.ToDouble(TBImporte.Text)));
+                }
+                else
+                {
+                    logicaNegocio.modificarIngresoGasto(new IngresoGasto(DPFecha.SelectedDate.Value, TBConcepto.Text, Convert.ToDouble(TBImporte.Text)), posicion);
+                }
+                this.Close();
+            }
+            else LBError.Content = mensaje; //no se validaron los campos correctamente
         }
-
 
         private void BCancelar_Click(object sender, RoutedEventArgs e)
         {
